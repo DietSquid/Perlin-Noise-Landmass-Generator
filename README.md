@@ -15,7 +15,7 @@ At the moment, all you can do it load the script from ```main.py``` and look at 
 
 I am still really interested in this project and hope to continue working on it over the next few weeks or months. Here are some issues or missig features I need to implement:
 
-- Perhaps most obviously, the program needs to be killed and started again to generate another map. A simple jeyboard input command should fix this.
+- Perhaps most obviously, the program needs to be killed and started again to generate another map. A simple keyboard input command should fix this.
 - A proper user interface needs to be added to make the configuration of the algorithm easier. Either a GUI within the window itself, or even a terminal-based UI.
 - The option to export the heightmap as either a greyscale image or an array file for future use would be far more useful and should be added.
 - A button to toggle the "landscape mode" and the "heightmap mode" would be neat, wouldn't it?
