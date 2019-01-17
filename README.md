@@ -3,6 +3,8 @@ I didn't see any landmass generation tools on Github for python, so I learned a 
 
 the script generates a grid of variable size, and applies the perlin noise algorithm to every cell on the grid one at a time, assigning it an 8-bit integer that, when viewed alongside the rest of the grid, creates smooth, pseudorandom noise, which the code then uses as a heightmap of sorts. In the final step, the code sections off different depths on the heightmap and associates them with static colors(blue for sea, green for basic land, white for mountains, etc), before passing those values off to OpenGL to draw to the screen.
 
+![alt text](https://files.catbox.moe/dyp0j4.png)
+
 # Requirements
 This generator at this time only requires two non-default libraries, ```pyglet``` and ```noise```, both of which can easily be installed using pip:
 
