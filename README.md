@@ -22,3 +22,4 @@ I am still really interested in this project and hope to continue working on it 
 - The option to export the heightmap as either a greyscale image or an array file for future use would be far more useful and should be added.
 - A button to toggle the "landscape mode" and the "heightmap mode" would be neat, wouldn't it?
 - Parts of the code could use some prettying up, as well as additional documentation.
+- Ideally, the generator should default to changing the values of the edges of the grid to water, so landmasses aren't cut off halfway.
