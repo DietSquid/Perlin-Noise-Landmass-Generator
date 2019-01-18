@@ -25,8 +25,8 @@ class Terrain:
 
     def generate_seed(self):
         #offset ensures randomness of map
-        self.offsetx = random.randrange(1, 99999)
-        self.offsety = random.randrange(1, 99999)
+        self.offsetx = random.randrange(1, 9999999)
+        self.offsety = random.randrange(1, 9999999)
         print("seed genned")
 
     def generate_cells(self, xmove=0, ymove=0):
